@@ -48,35 +48,10 @@ With reaching each evaluate instruction in the standard input, print the tree re
 
 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Input and Output</title>
-    <style>
-        .container {
-            display: flex;
-            justify-content: space-between;
-        }
 
-        .box {
-            width: 48%; /* Adjust as needed */
-            padding: 10px;
-            border: 1px solid #ccc;
-            margin: 10px;
-        }
-
-        .input-box {
-            background-color: #f2f2f2;
-        }
-
-        .output-box {
-            background-color: #e0e0e0;
-        }
-    </style>
-</head>
 <body>
     <div class="container">
-        <div class="box input-box">
+        <div >
             <h3>Sample Input:</h3>
             <pre>
 6
@@ -88,7 +63,7 @@ With reaching each evaluate instruction in the standard input, print the tree re
 5 2 input 5
             </pre>
         </div>
-        <div class="box output-box">
+        <div >
             <h3>Sample Output:</h3>
             <pre>
 evaluate -d #output 25
