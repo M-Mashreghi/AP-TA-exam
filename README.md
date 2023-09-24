@@ -61,11 +61,6 @@ With reaching each evaluate instruction in the standard input, print the tree re
 3 1 input 10
 4 1 input 3
 5 2 input 5
-            </pre>
-        </div>
-        <div >
-            <h3>Sample Output:</h3>
-            <pre>
 evaluate -d #output 25
 rebase -b 3
 evaluate -d #output 1
@@ -75,6 +70,5 @@ reset 5 6
 evaluate -b #output -100
             </pre>
         </div>
-    </div>
 </body>
 
